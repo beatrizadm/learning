@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DiasDoMes {
 	public static void main(String[] args) {
-		String mes[] = {"janeiro","fevereiro","marÁo", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"};
+		String mes[] = {"janeiro","fevereiro","mar√ßo", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"};
 		int dias[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 ,31};
 		
 		Scanner teclado = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class DiasDoMes {
 		
 		/*
 		
-		vendo se È bissexto:            1 caso     2 caso     3 caso
+		vendo se √© bissexto:            1 caso     2 caso     3 caso
 		  - divisivel por 4              sim        sim    	    sim		    (ano % 4 == 0)
 		  - divisivel por 100            sim        sim  		nao	        (ano % 100 == 0)
 		  - divisivel por 400            sim        nao   		nao         (ano % 400 == 0)
@@ -35,14 +35,14 @@ public class DiasDoMes {
 		
 		System.out.println();
 		if (bissexto == true) {
-			System.out.println("Este ano È bissexto!!!  :)");
+			System.out.println("Este ano √© bissexto!!!  :)");
 		} else {
-			System.out.println("Este ano nao È bissexto :/");
+			System.out.println("Este ano nao √© bissexto :/");
 		}
-		System.out.println("Para o ano " + ano +" a quantidade de dias dos seus respectivos meses s„o:");
+		System.out.println("Para o ano " + ano +" a quantidade de dias dos seus respectivos meses s√£o:");
 		for (int i = 0; i < mes.length; i++) {
 			if (bissexto == true) {
-				dias[1] = 29;                // o indice de fevereiro È 1
+				dias[1] = 29;                // o indice de fevereiro √© 1
 			}
 			System.out.println("O mes de "+ mes[i]+ " tem " + dias[i] + " dias.");
 		}
