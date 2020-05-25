@@ -29,10 +29,10 @@ public class TiposPrimitivos {
 		float nota = 9.5f;
 		String nome = "Bibs";
 		
-		System.out.println("sua nota é: " + nota);
-		System.out.printf("sua nota é: %.2f \n", nota);
-		System.out.printf("a nota de %s é %.1f \n", nome, nota);
-		System.out.format("sua nota é %.1f \n", nota);
+		System.out.println("sua nota Ã©: " + nota);
+		System.out.printf("sua nota Ã©: %.2f \n", nota);
+		System.out.printf("a nota de %s Ã© %.1f \n", nome, nota);
+		System.out.format("sua nota Ã© %.1f \n", nota);
 		System.out.println(); 
 		
 		
@@ -46,7 +46,7 @@ public class TiposPrimitivos {
 		System.out.print("digite o valor do seu respectivo saldo: ");
 		float saldo = teclado.nextFloat();
 		
-		System.out.printf("o saldo de %s é %.2f \n", cliente, saldo);
+		System.out.printf("o saldo de %s Ã© %.2f \n", cliente, saldo);
 		System.out.println();
 		
 		
