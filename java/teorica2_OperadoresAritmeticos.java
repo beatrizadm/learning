@@ -45,13 +45,13 @@ public class OperadoresAritmeticos {
 		int n1 = 1;
 		int n2 = 2;
 		float media = (n1 + n2) / 2;
-		System.out.println("A media é igual a: " + media);
+		System.out.println("A media eh igual a: " + media);
 		System.out.println();
 		
 		
 		System.out.println("OPERADORES ARITMETICOS");
 		int n3 = 3;
-		System.out.println("o numero é: " + n3);
+		System.out.println("o numero eh: " + n3);
 		n3 ++;
 		System.out.println("aumentou um: " + n3);
 		n3 --;
