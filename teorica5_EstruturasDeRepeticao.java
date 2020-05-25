@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EstruturasDeRepeticao {
 	public static void main(String[] args) {
-		System.out.println("REPETI«√O COM TESTE NO INICIO");
+		System.out.println("REPETI√á√ÉO COM TESTE NO INICIO");
 		int contador = 0;
 		while (contador < 5) {
 			System.out.println("esse loop rodou " + contador + " vez(es)");
@@ -13,10 +13,10 @@ public class EstruturasDeRepeticao {
 
 		
 		System.out.println();
-		System.out.println("MODIFICADORES DO FLUXO DO LA«O");
+		System.out.println("MODIFICADORES DO FLUXO DO LA√áO");
 
-		// se o laÁo passar por um continue, ele ignora o comando de baixo e retorna pro loop (JOGA PRA CIMA DO LA«O)
-		// o break para todo o laÁo (JOGA PRA BAIXO DO LA«O)
+		// se o la√ßo passar por um continue, ele ignora o comando de baixo e retorna pro loop (JOGA PRA CIMA DO LA√áO)
+		// o break para todo o la√ßo (JOGA PRA BAIXO DO LA√áO)
 		
 		int cont = 0;
 		while (cont < 10) {
@@ -27,7 +27,7 @@ public class EstruturasDeRepeticao {
 			if (cont == 7) {
 				break;
 			}
-			System.out.println("esse È o loop " + cont);
+			System.out.println("esse √© o loop " + cont);
 		}
 
 		System.out.println();
@@ -49,7 +49,7 @@ public class EstruturasDeRepeticao {
 			System.out.println("loop " + contar);
 		}
 		
-		/*     mesmo codigo, sÛ que usando while:
+		/*     mesmo codigo, s√≥ que usando while:
 		 
 		int contar = 0;
 		while (contar <= 5) {
@@ -82,10 +82,10 @@ public class EstruturasDeRepeticao {
 		}
 		
 		System.out.println();
-		System.out.println("LA«OS ANINHADOS");
+		System.out.println("LA√áOS ANINHADOS");
 		for (int j = 0; j <= 2; j++) {
 			for (int i = 0; i <= 1; i++) {
-				System.out.println("primeiro laÁo: " + j + " | segundo laÁo:" + i);
+				System.out.println("primeiro la√ßo: " + j + " | segundo la√ßo:" + i);
 			}
 		}
 		
