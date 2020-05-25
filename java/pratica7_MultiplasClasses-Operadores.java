@@ -1,7 +1,7 @@
 /*
  
 OPERADOR TERNARIO
-  o objetivo da condicao é atribuir um valor ou outro a uma mesma variavel
+  o objetivo da condicao Ã© atribuir um valor ou outro a uma mesma variavel
  
   maior = n1>n2 ? x:y
   
@@ -56,7 +56,7 @@ public class Operadores {
 		String nome2 = new String("Bibs");
 		String resultado;
 		resultado = (nome1 == nome2) ? "igual" : "diferente";
-		System.out.println(resultado);  // -> nao possuem a mesma estrutura, apenas o conteudo é igual
+		System.out.println(resultado);  // -> nao possuem a mesma estrutura, apenas o conteudo Ã© igual
 		
 		resultado = (nome1.equals(nome2)) ? "igual" : "diferente";
 		System.out.println(resultado);  // -> pra objetos, sempre tem que usar equals. 
