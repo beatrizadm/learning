@@ -23,9 +23,9 @@ public class EstruturasCondicionais {
 		int n3 = teclado.nextInt();
 		int dif = 2020 - n3;
 		if (dif >= 18) {
-			System.out.println("voce é maior de idade :O");
+			System.out.println("voce Ã© maior de idade :O");
 		} else {
-			System.out.println("voce é menor de idade :/");
+			System.out.println("voce Ã© menor de idade :/");
 		}
 		
 		
@@ -38,9 +38,9 @@ public class EstruturasCondicionais {
 			System.out.println("voce nao vota :/");
 		} else {
 			if (idade >= 16 && idade < 18 || idade > 70) {
-				System.out.println("seu voto é opcional :D");
+				System.out.println("seu voto Ã© opcional :D");
 			} else {
-				System.out.println("seu voto é obrigatorio :)");
+				System.out.println("seu voto Ã© obrigatorio :)");
 			}
 		}
 
@@ -75,6 +75,6 @@ public class EstruturasCondicionais {
 				tipo = "ET";
 				break; // -> desnecessario/opcional
 		}
-		System.out.println("é um(a) " + tipo);
+		System.out.println("Ã© um(a) " + tipo);
 	}
 }
