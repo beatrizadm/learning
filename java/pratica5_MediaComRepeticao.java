@@ -17,8 +17,8 @@ public class MediaComRepeticao {
 		} while (resp.equals("S"));
 		
 		media = soma / cont;
-		System.out.println("Você digitou " + cont + " numero(s)");
-		System.out.println("A soma de todos eles é: " + soma);
-		System.out.println("Já a média é: " + media);
+		System.out.println("VocÃª digitou " + cont + " numero(s)");
+		System.out.println("A soma de todos eles Ã©: " + soma);
+		System.out.println("JÃ¡ a mÃ©dia Ã©: " + media);
 	}
 }
