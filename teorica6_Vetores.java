@@ -17,7 +17,7 @@ public class Vetores {
 		System.out.println(n1);
 		
 		System.out.println();
-		System.out.println("ORDENA«√O");
+		System.out.println("ORDENA√á√ÉO");
 		double n2[] = {100000, 3.467, -56, 7};
 		Arrays.sort(n2);
 		for (double valor: n2) {
